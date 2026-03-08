@@ -28,12 +28,35 @@
   border-radius: 6px;
 }
 
+.contact-btn {
+  font-size: 24px;
+  color: white;
+  background-color: #ff136f;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: none;
+  border-radius: 6px;
+  height: 68px;
+}
+.card-button {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: none;
+  border-radius: 6px;
+}
+
 /* navbar style */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
 }
 
 /* hero section style */
@@ -98,6 +121,49 @@
 }
 
 
+/* card section */
+.card{
+    border: 1px solid #929292;
+    padding: 26px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.card h1{
+    font-size: 24px;
+}
+.card p{
+    color: #4E4E4E;
+    font-size: 16px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+/* contact section */
+.contact-section{
+    background-color: #FFF2F1;
+    text-align: center;
+    padding: 80px;
+    margin-top: 150px;
+}
+.contact-section p{
+    color: #707070;
+}
+
+.contact-section input{
+    height: 45px;
+    width: 500px; 
+    font-size: 24px;
+    border: none;
+    padding: 16px;
+}
+
+
+
 /* responsive design  start*/
 
 @media (max-width: 768px) {
@@ -129,4 +195,23 @@
     gap: 26px;
     
 }
+
+/* card section */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+}
+/* contact section */
+.contact-section input{
+    height: 45px;
+    width: 250px; 
+    font-size: 24px;
+    border: none;
+    padding: 16px;
+}
+.contact-section {
+    margin-top: 20px;
+}
+
 }
