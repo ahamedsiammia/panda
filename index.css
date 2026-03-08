@@ -167,6 +167,9 @@
 /* responsive design  start*/
 
 @media (max-width: 768px) {
+    .body{
+        padding: 10px;
+    }
     .logo img{
         width: 140px;
         height: 40px;
@@ -192,6 +195,7 @@
  .category-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    /* padding: 10px; */
     gap: 26px;
     
 }
@@ -200,6 +204,7 @@
 .card-container{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    /* padding: 10px; */
     gap: 24px;
 }
 /* contact section */
